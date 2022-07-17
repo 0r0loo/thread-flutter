@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: '>=2.17.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,7 +29,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -51,7 +50,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -85,5 +83,27 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: MinSans
+      fonts:
+        - asset: asset/fonts/MinSans-Black.otf
+          weight: 900
+        - asset: asset/fonts/MinSans-Bold.otf
+          weight: 700
+        - asset: asset/fonts/MinSans-ExtraBold.otf
+          weight: 800
+        - asset: asset/fonts/MinSans-ExtraLight.otf
+          weight: 200
+        - asset: asset/fonts/MinSans-Light.otf
+          weight: 300
+        - asset: asset/fonts/MinSans-Medium.otf
+          weight: 500
+        - asset: asset/fonts/MinSans-Regular.otf
+          weight: 400
+        - asset: asset/fonts/MinSans-SemiBold.otf
+          weight: 600
+        - asset: asset/fonts/MinSans-Thin.otf
+          weight: 100
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
