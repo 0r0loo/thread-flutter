@@ -33,6 +33,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.1+1
 
 dev_dependencies:
   flutter_test:
@@ -56,7 +57,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - asset/icons/round/
+    - asset/icons/round_fill/
+    - web/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -86,23 +90,23 @@ flutter:
   fonts:
     - family: MinSans
       fonts:
-        - asset: asset/fonts/MinSans-Black.otf
+        - asset: asset/fonts/static/MinSans-Black.otf
           weight: 900
-        - asset: asset/fonts/MinSans-Bold.otf
+        - asset: asset/fonts/static/MinSans-Bold.otf
           weight: 700
-        - asset: asset/fonts/MinSans-ExtraBold.otf
+        - asset: asset/fonts/static/MinSans-ExtraBold.otf
           weight: 800
-        - asset: asset/fonts/MinSans-ExtraLight.otf
+        - asset: asset/fonts/static/MinSans-ExtraLight.otf
           weight: 200
-        - asset: asset/fonts/MinSans-Light.otf
+        - asset: asset/fonts/static/MinSans-Light.otf
           weight: 300
-        - asset: asset/fonts/MinSans-Medium.otf
+        - asset: asset/fonts/static/MinSans-Medium.otf
           weight: 500
-        - asset: asset/fonts/MinSans-Regular.otf
+        - asset: asset/fonts/static/MinSans-Regular.otf
           weight: 400
-        - asset: asset/fonts/MinSans-SemiBold.otf
+        - asset: asset/fonts/static/MinSans-SemiBold.otf
           weight: 600
-        - asset: asset/fonts/MinSans-Thin.otf
+        - asset: asset/fonts/static/MinSans-Thin.otf
           weight: 100
 
   # For details regarding fonts from package dependencies,
